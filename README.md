@@ -1,11 +1,11 @@
 # Web Maps Mapsource Collection
 
-# Status of the maps
+## Status of the maps
 * World
-* * Google Road: **works**
-* * Google Terrain: **works**
-* * Komoot: **works**
-* * OSM Mapnik: **works**
+ * Google Road: **works**
+ * Google Terrain: **works**
+ * Komoot: **works**
+ * OSM Mapnik: **works**
 * Europe
 
 * Oceania 
