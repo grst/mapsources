@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customMapSource>
+    <name>Komoot</name>
+    <id>komoot_world</id>
+    <minZoom>3</minZoom>
+    <maxZoom>18</maxZoom>
+    <tileType>png</tileType>
+    <url>http://a.tile.komoot.de/komoot/{$z}/{$x}/{$y}.png</url>
+</customMapSource>

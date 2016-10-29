@@ -1,0 +1,13 @@
+<customMapSource>
+    <name>NZ topo</name>
+    <minZoom>8</minZoom>
+    <maxZoom>15</maxZoom>
+    <tileType>PNG</tileType>
+    <url>http://tiles-2.topomap.co.nz/tiles-topo50-20160901/{$z}-{$x}-{$y}.png</url>
+    <region>
+        <north>-33</north>
+        <south>-47</south>
+        <east>165</east>
+        <west>177</west>
+    </region>
+</customMapSource>

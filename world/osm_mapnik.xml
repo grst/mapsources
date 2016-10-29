@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customMapSource>
+    <name>OSM Mapnik</name>
+    <id>osm_mapnik_world</id>
+    <minZoom>0</minZoom>
+    <maxZoom>18</maxZoom>
+    <tileType>png</tileType>
+    <url>http://tile.openstreetmap.org/{$z}/{$x}/{$y}.png</url>
+</customMapSource>

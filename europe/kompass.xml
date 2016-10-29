@@ -1,10 +1,7 @@
 <customMapSource>
     <name>Kompass</name>
-    <minZoom>5</minZoom>
+    <minZoom>2</minZoom>
     <maxZoom>16</maxZoom>
     <tileType>PNG</tileType>
-    <tileUpdate>IfNoneMatch</tileUpdate>
     <url>http://ec1.cdn.ecmaps.de/WmsGateway.ashx.jpg?Experience=kompass&amp;MapStyle=KOMPASS%20Touristik&amp;TileX={$x}&amp;TileY={$y}&amp;ZoomLevel={$z}</url>
-    <backgroundColor>#000000</backgroundColor>
-    <ignoreErrors>true</ignoreErrors>
 </customMapSource>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customMapSource>
+    <name>Google Road</name>
+    <id>google_road</id>
+    <minZoom>2</minZoom>
+    <maxZoom>18</maxZoom>
+    <tileType>png</tileType>
+    <url>http://mt2.google.com/vt/x={$x}&amp;y={$y}&amp;z={$z}</url>
+</customMapSource>

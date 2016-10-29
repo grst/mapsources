@@ -1,5 +1,6 @@
 <customMapSource>
     <name>Geoportail France</name>
+    <id>france_geoportail</id>
     <minZoom>5</minZoom>
     <maxZoom>16</maxZoom>
     <tileType>PNG</tileType>
