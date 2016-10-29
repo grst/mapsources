@@ -1,9 +1,9 @@
 <customMapSource>
-    <name>Outdooractive Austria</name>
-    <minZoom>10</minZoom>
-    <maxZoom>17</maxZoom>
+    <name>Outdooractive Austria Topo</name>
+    <minZoom>15</minZoom>
+    <maxZoom>16</maxZoom>
     <tileType>PNG</tileType>
-    <url>http://s0.outdooractive.com/austria/map/{$z}/{$x}/{$y}.png</url>
+    <url>http://s0.outdooractive.com/austria/topo/{$z}/{$x}/{$y}.png</url>
     <region>
         <north>49</north>
         <south>46</south>

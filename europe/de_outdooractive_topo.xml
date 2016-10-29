@@ -1,7 +1,7 @@
 <customMapSource>
     <name>Outdooractive Germany Topo</name>
-    <minZoom>16</minZoom>
-    <maxZoom>17</maxZoom>
+    <minZoom>15</minZoom>
+    <maxZoom>16</maxZoom>
     <tileType>PNG</tileType>
     <tileUpdate>IfNoneMatch</tileUpdate>
     <url>http://s2.outdooractive.com/portal/topo/{$z}/{$x}/{$y}.png</url>

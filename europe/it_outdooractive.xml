@@ -1,13 +1,13 @@
 <customMapSource>
     <name>Outdooractive South Tyrol</name>
-    <minZoom>8</minZoom>
+    <minZoom>10</minZoom>
     <maxZoom>17</maxZoom>
     <tileType>PNG</tileType>
     <url>http://s0.outdooractive.com/suedtirol/map/{$z}/{$x}/{$y}.png</url>
     <region>
         <north>47</north>
         <south>46</south>
-        <east>7.5</east>
-        <west>12.5</west>
+        <east>12.5</east>
+        <west>7.5</west>
     </region>
 </customMapSource>
