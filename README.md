@@ -1,6 +1,6 @@
 # Web Maps Mapsource Collection
 This is a collection of tiled web maps for GEOS ([Google Earth Overlay Server](https://github.com/grst/geos/)). 
-The mapsources are based on the [MOBAC XML MapSource Format](http://mobac.sourceforge.net/wiki/index.php/Custom_XML_Map_Sources) with some extensions. 
+The mapsources are based on the [MOBAC XML MapSource Format](http://mobac.sourceforge.net/wiki/index.php/Custom_XML_Map_Sources) with some extensions. For a documentation of the format, please read [GEOS: creating mapsources](https://github.com/grst/geos#creating-mapsources)
 
 ## Status of the maps
 * World
