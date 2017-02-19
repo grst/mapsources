@@ -15,7 +15,7 @@ The mapsources are based on the [MOBAC XML MapSource Format](http://mobac.source
   * Outdooractive Austria: **works** (more precise boundaries?)
   * Outdooractive Austria Topo: **works** (Note: contains only zoom levels 15/16, so you have to zoom in to view it)
   * Outdooractive South Tyrol: **works** (more precise boundaries?)
-  * Geoportail France: **needs API key**
+  * Geoportail France: **works**/**needs API key**
   * Kompass: **works**
   * OSM 4umaps: **works**
 
@@ -26,7 +26,6 @@ The mapsources are based on the [MOBAC XML MapSource Format](http://mobac.source
 ## Wishlist
 * North America Topo Maps
 * [Swisstopo](http://map.geo.admin.ch)
-* [Geoportail France](https://www.geoportail.gouv.fr/carte)
 * [Bayernatlas Topo](https://geoportal.bayern.de/bayernatlas/index.html?X=5253240.74&Y=4380640.88&zoom=10&lang=de&topic=ba&bgLayer=tk&layers_opacity=0.2,0.25&layers=lod,e528a2a8-44e7-46e9-9069-1a8295b113b5&catalogNodes=122)
 
 ## Creating Map Sources
