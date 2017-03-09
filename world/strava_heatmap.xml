@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customMapSource>
+   <name>Strava Heatmap</name>
+   <minZoom>1</minZoom>
+   <maxZoom>17</maxZoom>
+   <tileType>png</tileType>
+   <url>http://d2z9m7k9h4f0yp.cloudfront.net/tiles/cycling/color3/{$z}/{$x}/{$y}.png?v=3></url>
+   <tileUpdate>None</tileUpdate>
+   <backgroundColor>#000000</backgroundColor>
+   <ignoreErrors>false</ignoreErrors>
+</customMapSource>

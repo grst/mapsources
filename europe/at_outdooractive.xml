@@ -1,13 +1,22 @@
-<customMapSource>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customMultiLayerMapSource>
     <name>Outdooractive Austria</name>
-    <minZoom>10</minZoom>
-    <maxZoom>17</maxZoom>
-    <tileType>PNG</tileType>
-    <url>http://s0.outdooractive.com/austria/map/{$z}/{$x}/{$y}.png</url>
-    <region>
-        <north>49</north>
-        <south>46</south>
-        <east>17.5</east>
-        <west>9</west>
-    </region>
-</customMapSource>
+    <tileType>png</tileType>
+    <layers>
+        <customMapSource>
+            <name>Custom OSM Mapnik</name>
+            <minZoom>0</minZoom>
+            <maxZoom>9</maxZoom>
+            <tileType>png</tileType>
+            <tileUpdate>None</tileUpdate>
+            <url>http://tile.openstreetmap.org/{$z}/{$x}/{$y}.png</url>
+        </customMapSource>
+        <customMapSource>
+            <name>Outdooractive Austria</name>
+            <minZoom>10</minZoom>
+            <maxZoom>17</maxZoom>
+            <tileType>PNG</tileType>
+            <url>http://s0.outdooractive.com/austria/map/{$z}/{$x}/{$y}.png</url>
+        </customMapSource>
+    </layers>
+</customMultiLayerMapSource>

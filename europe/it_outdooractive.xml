@@ -1,13 +1,20 @@
-<customMapSource>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customMultiLayerMapSource>
     <name>Outdooractive South Tyrol</name>
-    <minZoom>10</minZoom>
-    <maxZoom>17</maxZoom>
-    <tileType>PNG</tileType>
-    <url>http://s0.outdooractive.com/suedtirol/map/{$z}/{$x}/{$y}.png</url>
-    <region>
-        <north>47</north>
-        <south>46</south>
-        <east>12.5</east>
-        <west>7.5</west>
-    </region>
-</customMapSource>
+    <layers>
+        <customMapSource>
+            <name>Custom OSM Mapnik</name>
+            <minZoom>0</minZoom>
+            <maxZoom>9</maxZoom>
+            <tileType>png</tileType>
+            <url>http://tile.openstreetmap.org/{$z}/{$x}/{$y}.png</url>
+        </customMapSource>
+        <customMapSource>
+            <name>Outdooractive South Tyrol</name>
+            <minZoom>10</minZoom>
+            <maxZoom>17</maxZoom>
+            <tileType>PNG</tileType>
+            <url>http://s0.outdooractive.com/suedtirol/map/{$z}/{$x}/{$y}.png</url>
+        </customMapSource>
+    </layers>
+</customMultiLayerMapSource>

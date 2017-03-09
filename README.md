@@ -8,6 +8,7 @@ The mapsources are based on the [MOBAC XML MapSource Format](http://mobac.source
   * Google Terrain: **works**
   * Komoot: **works**
   * OSM Mapnik: **works**
+  * Strava Heatmap: **doesn't work** (Tile download relies on cookie which is not available from Google Earth. Maybe possible with [API](http://strava.github.io/api/v3/heatmaps/)?
 
 * Europe
   * Outdooractive Germany: **works** (more precise boundaries?)
@@ -20,7 +21,7 @@ The mapsources are based on the [MOBAC XML MapSource Format](http://mobac.source
   * OSM 4umaps: **works**
 
 * Oceania 
-  * NZ topo: **doesn't work** (Tileserver return 404 when outside their web app)
+  * NZ topo: **doesn't work** (Tileserver return 404 when outside their web app, topomap.co.nz: uses different tile grid. )
 
 
 ## Wishlist

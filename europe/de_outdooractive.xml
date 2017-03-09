@@ -1,13 +1,22 @@
-<customMapSource>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customMultiLayerMapSource>
     <name>Outdooractive Germany</name>
-    <minZoom>8</minZoom>
-    <maxZoom>17</maxZoom>
-    <tileType>PNG</tileType>
-    <url>http://s2.outdooractive.com/portal/map/{$z}/{$x}/{$y}.png</url>
-    <region>
-        <north>54.5</north>
-        <south>46.8</south>
-        <east>15</east>
-        <west>5</west>
-    </region>
-</customMapSource>
+    <tileType>png</tileType>
+    <layers>
+        <customMapSource>
+            <name>Custom OSM Mapnik</name>
+            <minZoom>0</minZoom>
+            <maxZoom>7</maxZoom>
+            <tileType>png</tileType>
+            <tileUpdate>None</tileUpdate>
+            <url>http://tile.openstreetmap.org/{$z}/{$x}/{$y}.png</url>
+        </customMapSource>
+        <customMapSource>
+            <name>Outdooractive Germany</name>
+            <minZoom>8</minZoom>
+            <maxZoom>17</maxZoom>
+            <tileType>PNG</tileType>
+            <url>http://s2.outdooractive.com/portal/map/{$z}/{$x}/{$y}.png</url>
+        </customMapSource>
+    </layers>
+</customMultiLayerMapSource>
