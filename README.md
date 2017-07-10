@@ -19,6 +19,7 @@ The mapsources are based on the [MOBAC XML MapSource Format](http://mobac.source
   * Geoportail France: **works**/**needs API key**
   * Kompass: **works**
   * OSM 4umaps: **works**
+  * Albania Geoportal: **works**
 
 * Oceania 
   * NZ topo: **doesn't work** (Tileserver return 404 when outside their web app, topomap.co.nz: uses different tile grid. )
