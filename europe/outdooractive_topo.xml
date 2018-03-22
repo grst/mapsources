@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customMultiLayerMapSource>
+    <name>Outdooractive Topo</name>
+    <tileType>png</tileType>
+    <layers>
+        <customMapSource>
+            <name>Custom OSM Mapnik</name>
+            <minZoom>0</minZoom>
+            <maxZoom>14</maxZoom>
+            <tileType>png</tileType>
+            <url>http://tile.openstreetmap.org/{$z}/{$x}/{$y}.png</url>
+        </customMapSource>
+        <customMapSource>
+            <name>Outdooractive Germany Topo</name>
+            <minZoom>15</minZoom>
+            <maxZoom>16</maxZoom>
+            <tileType>PNG</tileType>
+            <url>https://w1.outdooractive.com/map/v1/raster/topo_bkg/{$z}/{$x}/{$y}/t.png?project=outdooractive</url>
+        </customMapSource>
+        <customMapSource>
+            <name>Outdooractive SwissTopo</name>
+            <minZoom>15</minZoom>
+            <maxZoom>16</maxZoom>
+            <tileType>PNG</tileType>
+            <url>https://w3.outdooractive.com/map/v1/raster/topo_swisstopo/{$z}/{$x}/{$y}/t.png?project=outdooractive</url>
+        </customMapSource>
+        <customMapSource>
+            <name>Outdooractive Austria Topo</name>
+            <minZoom>15</minZoom>
+            <maxZoom>16</maxZoom>
+            <tileType>PNG</tileType>
+            <url>https://w3.outdooractive.com/map/v1/raster/topo_bev/{$z}/{$x}/{$y}/t.png?project=outdooractive</url>
+        </customMapSource>
+    </layers>
+</customMultiLayerMapSource>

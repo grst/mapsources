@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customMultiLayerMapSource>
+    <name>Outdooractive</name>
+    <tileType>png</tileType>
+    <layers>
+        <customMapSource>
+            <name>Outdooractive OSM</name>
+            <minZoom>1</minZoom>
+            <maxZoom>17</maxZoom>
+            <tileType>PNG</tileType>
+            <url>https://w3.outdooractive.com/map/v1/png/osm/{$z}/{$x}/{$y}/t.png?project=outdooractive</url>
+        </customMapSource>
+        <customMapSource>
+            <name>Outdooractive Germany and Austria</name>
+            <minZoom>8</minZoom>
+            <maxZoom>17</maxZoom>
+            <tileType>PNG</tileType>
+            <url>https://w3.outdooractive.com/map/v1/png/oac/{$z}/{$x}/{$y}/t.png?project=outdooractive</url>
+        </customMapSource>
+    </layers>
+</customMultiLayerMapSource>

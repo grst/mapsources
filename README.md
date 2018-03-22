@@ -3,6 +3,8 @@ This is a collection of tiled web maps for GEOS ([Google Earth Overlay Server](h
 The mapsources are based on the [MOBAC XML MapSource Format](http://mobac.sourceforge.net/wiki/index.php/Custom_XML_Map_Sources) with some extensions. For a documentation of the format, please read [GEOS: creating mapsources](https://github.com/grst/geos#creating-mapsources)
 
 ## Status of the maps
+*maps that currently do not work are in the `develop` branch of this repository*
+
 * World
   * Google Road: **works**
   * Google Terrain: **works**
@@ -18,8 +20,8 @@ The mapsources are based on the [MOBAC XML MapSource Format](http://mobac.source
   * Outdooractive South Tyrol: **works** (more precise boundaries?)
   * Geoportail France: **works**/**needs API key**
   * Kompass: **works**
-  * OSM 4umaps: **works**
-  * Albania Geoportal: **works**
+  * OSM 4umaps: **does not work, because server sends no CORS header**
+  * Albania Geoportal: **does not work**
 
 * Oceania 
   * NZ topo: **doesn't work** (Tileserver return 404 when outside their web app, topomap.co.nz: uses different tile grid. )
