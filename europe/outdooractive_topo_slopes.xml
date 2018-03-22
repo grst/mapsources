@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <customMultiLayerMapSource>
-    <name>Outdooractive Topo</name>
+    <name>Outdooractive Topo+Slope color</name>
     <tileType>png</tileType>
     <layers>
         <customMapSource>
@@ -10,7 +10,7 @@
             <tileType>PNG</tileType>
             <url>https://w3.outdooractive.com/map/v1/png/osm/{$z}/{$x}/{$y}/t.png?project=outdooractive</url>
         </customMapSource>
-        <customMapSource>
+       <customMapSource>
             <name>Outdooractive Germany Topo</name>
             <minZoom>15</minZoom>
             <maxZoom>16</maxZoom>
@@ -30,6 +30,13 @@
             <maxZoom>16</maxZoom>
             <tileType>PNG</tileType>
             <url>https://w3.outdooractive.com/map/v1/raster/topo_bev/{$z}/{$x}/{$y}/t.png?project=outdooractive</url>
+        </customMapSource>
+         <customMapSource>
+            <name>Outdooractive xGradient</name>
+            <minZoom>7</minZoom>
+            <maxZoom>16</maxZoom>
+            <tileType>PNG</tileType>
+            <url>https://s1.outdooractive.com/map/xGradient/{$z}/{$x}/{$y}.png?project=outdooractive</url>
         </customMapSource>
     </layers>
 </customMultiLayerMapSource>
