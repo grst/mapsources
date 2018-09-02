@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customMapSource>
+    <name>Open Infrastructure Telecom</name>
+    <id>OpenInfraMap.Telecom</id>
+    <minZoom>1</minZoom>
+    <maxZoom>18</maxZoom>
+    <tileType>png</tileType>
+    <url>https://tiles-c.openinframap.org/telecoms/{$z}/{$x}/{$y}.png</url>
+</customMapSource>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customMapSource>
+    <name>ESRI World Topo</name>
+    <id>Esri.WorldTopoMap</id>
+    <minZoom>2</minZoom>
+    <maxZoom>18</maxZoom>
+    <tileType>png</tileType>
+    <url>https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{$z}/{$y}/{$x}</url>
+</customMapSource>

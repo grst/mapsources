@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customMapSource>
+    <name>Open Infrastructure Power</name>
+    <id>OpenInfraMap.Power</id>
+    <minZoom>1</minZoom>
+    <maxZoom>18</maxZoom>
+    <tileType>png</tileType>
+    <url>https://tiles-c.openinframap.org/power/{$z}/{$x}/{$y}.png</url>
+</customMapSource>
