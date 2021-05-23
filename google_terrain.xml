@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<customMapSource>
-    <name>Google Terrain</name>
-    <id>google_terrain</id>
-    <minZoom>2</minZoom>
-    <maxZoom>18</maxZoom>
-    <tileType>png</tileType>
-    <url>http://mt2.google.com/vt/lyrs=t,r&amp;hl=en&amp;x={$x}&amp;y={$y}&amp;z={$z}</url>
-</customMapSource>
