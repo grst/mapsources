@@ -23,12 +23,17 @@ The mapsources are based on the [MOBAC XML MapSource Format](http://mobac.source
   * OSM 4umaps: **does not work, because server sends no CORS header**
   * Albania Geoportal: **does not work**
 
+* US
+  * USGS National Map Satellite: **works**
+  * USGS National Map Satellite & Topo: **works**
+  * USGS National Map Topo: **works**
+
 * Oceania 
   * NZ topo: **doesn't work** (Tileserver return 404 when outside their web app, topomap.co.nz: uses different tile grid. )
 
 
 ## Wishlist
-* North America Topo Maps
+* Canada Topo Maps
 * [Swisstopo](http://map.geo.admin.ch)
 * [Bayernatlas Topo](https://geoportal.bayern.de/bayernatlas/index.html?X=5253240.74&Y=4380640.88&zoom=10&lang=de&topic=ba&bgLayer=tk&layers_opacity=0.2,0.25&layers=lod,e528a2a8-44e7-46e9-9069-1a8295b113b5&catalogNodes=122)
 
