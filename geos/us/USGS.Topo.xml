@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customMapSource>
+    <name>USGS National Map Topo</name>
+    <id>USGS.Topo</id>
+    <minZoom>0</minZoom>
+    <maxZoom>16</maxZoom>
+    <tileType>png</tileType>
+    <url>https://basemap.nationalmap.gov/ArcGIS/rest/services/USGSTopo/MapServer/tile/{$z}/{$y}/{$x}</url>
+</customMapSource>
