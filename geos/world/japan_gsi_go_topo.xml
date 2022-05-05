@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customMapSource>
+    <name>GSI Japan Topo</name>
+    <id>gsi_go_japan_topo</id>
+    <folder>world/Japan</folder>  
+    <minZoom>0</minZoom>
+    <maxZoom>18</maxZoom>
+    <tileType>png</tileType>
+    <url>http://maps.gsi.go.jp/xyz/std/{$z}/{$x}/{$y}.png</url>
+</customMapSource>
