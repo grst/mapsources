@@ -8,6 +8,7 @@ The mapsources are based on the [MOBAC XML MapSource Format](http://mobac.source
 * World
   * Google Road: **works**
   * Google Terrain: **works**
+  * GSI Japan Topos: **works** (Note that GSI serves tiles for whole world but that detailed tiles are only served for Japan itself.)
   * Komoot: **works**
   * OSM Mapnik: **works**
   * Strava Heatmap: **doesn't work** (Tile download relies on cookie which is not available from Google Earth. Maybe possible with [API](http://strava.github.io/api/v3/heatmaps/)?
