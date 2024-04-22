@@ -2,6 +2,48 @@
 <onlinemapsources>
         
     <onlinemapsource uid="1000">
+                <name>ADFC bike map</name>    
+                <url><![CDATA[https://w2.oastatic.com/map/v1/topo/bva_osm/{$z}/{$x}/{$y}/t.png?project=alpenverein]]></url>    
+                <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
+                <minzoom>0</minzoom>    
+                <maxzoom>18</maxzoom>    
+                <projection>MERCATORESFERICA</projection>    
+                <servers>a,b,c</servers>    
+                <httpparam name="User-Agent">Mozilla/5.0 (X11; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0</httpparam>    
+                <cacheable>1</cacheable>    
+                <downloadable>1</downloadable>    
+                <maxtilesday>0</maxtilesday>    
+                <maxthreads>0</maxthreads>    
+                <xop></xop>    
+                <yop></yop>    
+                <zop></zop>    
+                <qop></qop>    
+                <sop></sop>    
+    </onlinemapsource>
+
+
+    <onlinemapsource uid="1001">
+                <name>ATHM - AvalanceTerrainHazardMap </name>    
+                <url><![CDATA[https://w1.oastatic.com/map/v1/topo/sg_athm/{$z}/{$x}/{$y}/t.png]]></url>    
+                <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
+                <minzoom>0</minzoom>    
+                <maxzoom>18</maxzoom>    
+                <projection>MERCATORESFERICA</projection>    
+                <servers>a,b,c</servers>    
+                <httpparam name="User-Agent">Mozilla/5.0 (X11; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0</httpparam>    
+                <cacheable>1</cacheable>    
+                <downloadable>1</downloadable>    
+                <maxtilesday>0</maxtilesday>    
+                <maxthreads>0</maxthreads>    
+                <xop></xop>    
+                <yop></yop>    
+                <zop></zop>    
+                <qop></qop>    
+                <sop></sop>    
+    </onlinemapsource>
+
+
+    <onlinemapsource uid="1002">
                 <name>France Geoportail classique</name>    
                 <url><![CDATA[http://wxs.ign.fr/an7nvfzojv5wa96dsga5nk8w/geoportail/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GEOGRAPHICALGRIDSYSTEMS.MAPS&STYLE=normal&TILEMATRIXSET=PM&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/jpeg]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -22,7 +64,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1001">
+    <onlinemapsource uid="1003">
                 <name>Google Satellite</name>    
                 <url><![CDATA[https://khms2.google.com/kh/v=894?x={$x}&y={$y}&z={$z}]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -43,7 +85,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1002">
+    <onlinemapsource uid="1004">
                 <name>Google Terrain</name>    
                 <url><![CDATA[http://mt2.google.com/vt/lyrs=t,r&hl=en&x={$x}&y={$y}&z={$z}]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -64,7 +106,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1003">
+    <onlinemapsource uid="1005">
                 <name>Google road</name>    
                 <url><![CDATA[http://mt2.google.com/vt/x={$x}&y={$y}&z={$z}]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -85,7 +127,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1004">
+    <onlinemapsource uid="1006">
                 <name>Hangneigung CH (swisstopo)</name>    
                 <url><![CDATA[https://wmts20.geo.admin.ch/1.0.0/ch.swisstopo.hangneigung-ueber_30/default/current/3857/{$z}/{$x}/{$y}.png]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -106,7 +148,28 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1005">
+    <onlinemapsource uid="1007">
+                <name>Harvey Maps UK</name>    
+                <url><![CDATA[https://w2.oastatic.com/map/v1/topo/hmx_osm/{$z}/{$x}/{$y}/t.png?project=alpenverein]]></url>    
+                <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
+                <minzoom>0</minzoom>    
+                <maxzoom>18</maxzoom>    
+                <projection>MERCATORESFERICA</projection>    
+                <servers>a,b,c</servers>    
+                <httpparam name="User-Agent">Mozilla/5.0 (X11; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0</httpparam>    
+                <cacheable>1</cacheable>    
+                <downloadable>1</downloadable>    
+                <maxtilesday>0</maxtilesday>    
+                <maxthreads>0</maxthreads>    
+                <xop></xop>    
+                <yop></yop>    
+                <zop></zop>    
+                <qop></qop>    
+                <sop></sop>    
+    </onlinemapsource>
+
+
+    <onlinemapsource uid="1008">
                 <name>Komoot</name>    
                 <url><![CDATA[http://a.tile.komoot.de/komoot/{$z}/{$x}/{$y}.png]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -127,7 +190,49 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1006">
+    <onlinemapsource uid="1009">
+                <name>Kompass</name>    
+                <url><![CDATA[https://map3.kompass.de/{$z}/{$x}/{$y}/kompass_touristic?key=2ba8c124-38b6-11e7-ade1-e0cb4e14e399]]></url>    
+                <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
+                <minzoom>0</minzoom>    
+                <maxzoom>18</maxzoom>    
+                <projection>MERCATORESFERICA</projection>    
+                <servers>a,b,c</servers>    
+                <httpparam name="User-Agent">Mozilla/5.0 (X11; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0</httpparam>    
+                <cacheable>1</cacheable>    
+                <downloadable>1</downloadable>    
+                <maxtilesday>0</maxtilesday>    
+                <maxthreads>0</maxthreads>    
+                <xop></xop>    
+                <yop></yop>    
+                <zop></zop>    
+                <qop></qop>    
+                <sop></sop>    
+    </onlinemapsource>
+
+
+    <onlinemapsource uid="1010">
+                <name>Mapzen Global Terrain</name>    
+                <url><![CDATA[https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{$z}/{$x}/{$y}.png]]></url>    
+                <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
+                <minzoom>0</minzoom>    
+                <maxzoom>15</maxzoom>    
+                <projection>MERCATORESFERICA</projection>    
+                <servers>a,b,c</servers>    
+                <httpparam name="User-Agent">Mozilla/5.0 (X11; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0</httpparam>    
+                <cacheable>1</cacheable>    
+                <downloadable>1</downloadable>    
+                <maxtilesday>0</maxtilesday>    
+                <maxthreads>0</maxthreads>    
+                <xop></xop>    
+                <yop></yop>    
+                <zop></zop>    
+                <qop></qop>    
+                <sop></sop>    
+    </onlinemapsource>
+
+
+    <onlinemapsource uid="1011">
                 <name>OSM Mapnik</name>    
                 <url><![CDATA[https://tile.openstreetmap.org/{$z}/{$x}/{$y}.png]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -148,7 +253,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1007">
+    <onlinemapsource uid="1012">
                 <name>OpenSlopeMap HighRes (5m)</name>    
                 <url><![CDATA[https://tileserver4.openslopemap.org/OSloOVERLAY_HR_AlpsEast_16/{$z}/{$x}/{$y}.png]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -169,7 +274,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1008">
+    <onlinemapsource uid="1013">
                 <name>OpenSlopeMap Standard (10m)</name>    
                 <url><![CDATA[https://tileserver1.openslopemap.org/OSloOVERLAY_LR_All_16/{$z}/{$x}/{$y}.png]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -190,7 +295,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1009">
+    <onlinemapsource uid="1014">
                 <name>OpenStreetMap</name>    
                 <url><![CDATA[https://tile.openstreetmap.org/{$z}/{$x}/{$y}.png]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -211,7 +316,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1010">
+    <onlinemapsource uid="1015">
                 <name>Openslopemap Betretungsverbote (Tirol</name>    
                 <url><![CDATA[https://tileserver4.openslopemap.org/WinterLayer/{$z}/{$x}/{$y}.png]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -232,7 +337,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1011">
+    <onlinemapsource uid="1016">
                 <name>Orthofoto AT</name>    
                 <url><![CDATA[https://maps2.wien.gv.at/basemap/bmaporthofoto30cm/normal/google3857/{$z}/{$y}/{$x}.jpeg]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -253,7 +358,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1012">
+    <onlinemapsource uid="1017">
                 <name>Orthofoto CH</name>    
                 <url><![CDATA[https://wmts20.geo.admin.ch/1.0.0/ch.swisstopo.swissimage-product/default/current/3857/{$z}/{$x}/{$y}.jpeg]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -274,7 +379,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1013">
+    <onlinemapsource uid="1018">
                 <name>Schummerung AT</name>    
                 <url><![CDATA[https://maps1.wien.gv.at/basemap/bmapgelaende/grau/google3857/{$z}/{$y}/{$x}.jpeg]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -295,7 +400,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1014">
+    <onlinemapsource uid="1019">
                 <name>Schummerung CH</name>    
                 <url><![CDATA[https://wmts20.geo.admin.ch/1.0.0/ch.swisstopo.swissalti3d-reliefschattierung/default/current/3857/{$z}/{$x}/{$y}.png]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -316,7 +421,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1015">
+    <onlinemapsource uid="1020">
                 <name>Schummerung Oberfläche AT</name>    
                 <url><![CDATA[https://maps2.wien.gv.at/basemap/bmapoberflaeche/grau/google3857/{$z}/{$y}/{$x}.jpeg]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -337,7 +442,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1016">
+    <onlinemapsource uid="1021">
                 <name>Schummerung Oberfläche CH</name>    
                 <url><![CDATA[https://wmts20.geo.admin.ch/1.0.0/ch.bafu.landesforstinventar-vegetationshoehenmodell_relief/default/current/3857/{$z}/{$x}/{$y}.png]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -358,7 +463,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1017">
+    <onlinemapsource uid="1022">
                 <name>Skirouten CH</name>    
                 <url><![CDATA[https://wmts20.geo.admin.ch/1.0.0/ch.swisstopo-karto.skitouren/default/current/3857/{$z}/{$x}/{$y}.png]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -379,7 +484,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1018">
+    <onlinemapsource uid="1023">
                 <name>Swisstopo Winter</name>    
                 <url><![CDATA[https://wmts20.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe-winter/default/current/3857/{$z}/{$x}/{$y}.jpeg]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -400,7 +505,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1019">
+    <onlinemapsource uid="1024">
                 <name>outdooractive AVK</name>    
                 <url><![CDATA[https://w3.oastatic.com/map/v1/topo/avk_osm/{$z}/{$x}/{$y}/t.png?project=alpenverein]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -421,7 +526,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1020">
+    <onlinemapsource uid="1025">
                 <name>outdooractive OSM</name>    
                 <url><![CDATA[https://w3.outdooractive.com/map/v1/png/osm/{$z}/{$x}/{$y}/t.png?project=outdooractive]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -442,7 +547,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1021">
+    <onlinemapsource uid="1026">
                 <name>outdooractive Slopes</name>    
                 <url><![CDATA[https://s1.outdooractive.com/map/xGradient/{$z}/{$x}/{$y}.png?project=outdooractive]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -463,7 +568,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1022">
+    <onlinemapsource uid="1027">
                 <name>outdooractive austria topo</name>    
                 <url><![CDATA[https://w3.outdooractive.com/map/v1/raster/topo_bev/{$z}/{$x}/{$y}/t.png?project=outdooractive]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -484,7 +589,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1023">
+    <onlinemapsource uid="1028">
                 <name>outdooractive germany topo</name>    
                 <url><![CDATA[https://w1.outdooractive.com/map/v1/raster/topo_bkg/{$z}/{$x}/{$y}/t.png?project=outdooractive]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
@@ -505,7 +610,7 @@
     </onlinemapsource>
 
 
-    <onlinemapsource uid="1024">
+    <onlinemapsource uid="1029">
                 <name>outdooractive swisstopo</name>    
                 <url><![CDATA[https://w3.outdooractive.com/map/v1/raster/topo_swisstopo/{$z}/{$x}/{$y}/t.png?project=outdooractive]]></url>    
                 <website><![CDATA[<a href="https://example.com">Website</a>]]></website>    
